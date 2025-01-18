@@ -1,0 +1,33 @@
+{
+    "$schema": "https://getcomposer.org/schema.json",
+    "name": "rfc/response",
+    "description": "Note that this is not a response of its own. It is merely an interface that describes a response.",
+    "keywords": [
+        "rfc",
+        "response"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/dependencies-packagist/rfc-response",
+    "authors": [
+        {
+            "name": "jundayw",
+            "email": "jundayw@126.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rfc\\Response\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
