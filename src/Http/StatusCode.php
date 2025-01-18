@@ -1,6 +1,6 @@
 <?php
 
-namespace Rfc\Response;
+namespace Rfc\Response\Http;
 
 interface StatusCode
 {
@@ -115,33 +115,33 @@ interface StatusCode
         410 => 'Gone',
         411 => 'Length Required',
         412 => 'Precondition Failed',
-        413 => 'Content Too Large',                                           // RFC-ietf-httpbis-semantics
+        413 => 'Content Too Large',                 // RFC-ietf-httpbis-semantics
         414 => 'URI Too Long',
         415 => 'Unsupported Media Type',
         416 => 'Range Not Satisfiable',
         417 => 'Expectation Failed',
-        418 => 'I\'m a teapot',                                               // RFC2324
-        421 => 'Misdirected Request',                                         // RFC7540
-        422 => 'Unprocessable Content',                                       // RFC-ietf-httpbis-semantics
-        423 => 'Locked',                                                      // RFC4918
-        424 => 'Failed Dependency',                                           // RFC4918
-        425 => 'Too Early',                                                   // RFC-ietf-httpbis-replay-04
-        426 => 'Upgrade Required',                                            // RFC2817
-        428 => 'Precondition Required',                                       // RFC6585
-        429 => 'Too Many Requests',                                           // RFC6585
-        431 => 'Request Header Fields Too Large',                             // RFC6585
-        451 => 'Unavailable For Legal Reasons',                               // RFC7725
+        418 => 'I\'m a teapot',                     // RFC2324
+        421 => 'Misdirected Request',               // RFC7540
+        422 => 'Unprocessable Content',             // RFC-ietf-httpbis-semantics
+        423 => 'Locked',                            // RFC4918
+        424 => 'Failed Dependency',                 // RFC4918
+        425 => 'Too Early',                         // RFC-ietf-httpbis-replay-04
+        426 => 'Upgrade Required',                  // RFC2817
+        428 => 'Precondition Required',             // RFC6585
+        429 => 'Too Many Requests',                 // RFC6585
+        431 => 'Request Header Fields Too Large',   // RFC6585
+        451 => 'Unavailable For Legal Reasons',     // RFC7725
         500 => 'Internal Server Error',
         501 => 'Not Implemented',
         502 => 'Bad Gateway',
         503 => 'Service Unavailable',
         504 => 'Gateway Timeout',
         505 => 'HTTP Version Not Supported',
-        506 => 'Variant Also Negotiates',                                     // RFC2295
-        507 => 'Insufficient Storage',                                        // RFC4918
-        508 => 'Loop Detected',                                               // RFC5842
-        510 => 'Not Extended',                                                // RFC2774
-        511 => 'Network Authentication Required',                             // RFC6585
+        506 => 'Variant Also Negotiates',           // RFC2295
+        507 => 'Insufficient Storage',              // RFC4918
+        508 => 'Loop Detected',                     // RFC5842
+        510 => 'Not Extended',                      // RFC2774
+        511 => 'Network Authentication Required',   // RFC6585
     ];
 
 }
